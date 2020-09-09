@@ -1,0 +1,42 @@
+<mat-spinner *ngIf="isLoading"></mat-spinner>
+
+<mat-accordion multi="true" *ngIf="posts.length>0 && !isLoading">
+  <mat-expansion-panel *ngFor="let post of posts">
+
+    <mat-expansion-panel-header>
+      {{post.title}}
+    </mat-expansion-panel-header>
+
+    <div class="post-image">
+      <img [src]="post.imagePath" [alt]="post.title">
+    </div>
+
+    <p>{{post.content}}</p>
+
+    <mat-action-row *ngIf="userIsAuthenticated && userId == post.creator">
+      <a mat-button [routerLink]="['/edit',post.id]" color="accent">EDIT</a>
+      <button mat-button color="warn" (click)="onDelete(post.id)">DELETE</button>
+    </mat-action-row>
+
+  </mat-expansion-panel>
+</mat-accordion>
+
+<mat-paginator
+  [length]="totalPosts"
+  [pageSize]="postsPerPage"
+  [pageSizeOptions]="pageSizeOptions"
+  (page)="onChangedPage($event)"
+  *ngIf="posts.length>0"
+>
+  <!--
+  length defines or allows us to define how mant items we have in total.
+  pageSize is to define how many posts per page.
+  pageSizeOptions is to define teh number of posts per page in the dropdown.
+
+  page event fired whenever amount of items per page or the current page changes.
+  -->
+</mat-paginator>
+
+<p *ngIf="posts.length<=0 && !isLoading" class="mat-body-1 info-text">
+  No post were added yet
+</p>

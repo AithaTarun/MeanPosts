@@ -1,0 +1,57 @@
+<mat-card>
+
+  <mat-spinner *ngIf="isLoading"></mat-spinner>
+
+  <form (submit)="onSavePost()" *ngIf="!isLoading" [formGroup]="form">
+
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        placeholder="Post Title"
+        formControlName="title"
+      >
+      <mat-error *ngIf="form.get('title').invalid">Post title is required</mat-error>
+    </mat-form-field>
+
+    <!--
+    ? is elvis which is used to check whether data exists or not, if not it won't populate the data.
+    -->
+
+    <div>
+      <button type="button" mat-stroked-button (click)="filePicker.click()">Pick image</button>
+      <input type="file" #filePicker (change)="onImagePicked($event)"> <!-- Change event fires whenever user changes the file -->
+      <!--
+      Here we hide the file input from DOM.
+      Then whenever we click a button we can stimulate a click event on file picker input.
+      So, we use that default picker functionality and we store the picked file in that input.
+      -->
+    </div>
+
+    <div class="image-preview">
+      <img
+        [src]="imagePreview"
+        [alt]="form.value.title"
+        *ngIf="imagePreview !== '' && imagePreview && form.get('image').valid"
+      >
+    </div>
+
+    <mat-form-field>
+      <textarea
+        matInput rows="6"
+        placeholder="Post content"
+        formControlName="content"
+      >
+      </textarea>
+      <mat-error *ngIf="form.get('content').invalid">Post content is required</mat-error>
+    </mat-form-field>
+
+    <button
+      mat-raised-button
+      color="primary"
+      type="submit"
+    >Save Post</button>
+
+  </form>
+
+</mat-card>

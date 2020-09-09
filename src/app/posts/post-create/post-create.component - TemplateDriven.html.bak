@@ -1,0 +1,60 @@
+<!--
+This form is developed in teplate driven approach.
+Not used in main project after changing to reactive forms approach.
+-->
+<mat-card>
+
+  <mat-spinner *ngIf="isLoading"></mat-spinner>
+
+  <form (submit)="onSavePost(postForm)" #postForm="ngForm" *ngIf="!isLoading">
+
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        name="titleInput"
+        [ngModel]="post?.title"
+        placeholder="Post Title"
+        required
+        #titleReference="ngModel"
+        minlength="3"
+      >
+      <mat-error *ngIf="titleReference.invalid">Post title is required</mat-error>
+    </mat-form-field>
+
+    <!--
+    ? is elvis which is used to check whether data exists or not, if not it won't populate the data.
+    -->
+
+    <div>
+      <button type="button" mat-stroked-button (click)="filePicker.click()">Pick image</button>
+      <input type="file" #filePicker>
+      <!--
+      Here we hide the file input from DOM.
+      Then whenever we click a button we can stimulate a click event on file picker input.
+      So, we use that default picker functionality and we store the picked file in that input.
+      -->
+    </div>
+
+    <mat-form-field>
+      <textarea
+        matInput rows="6"
+        name="contentInput"
+        [ngModel]="post?.content"
+        placeholder="Post content"
+        required
+        #contentReference="ngModel"
+      >
+      </textarea>
+      <mat-error *ngIf="contentReference.invalid">Post content is required</mat-error>
+    </mat-form-field>
+
+    <button
+      mat-raised-button
+      color="primary"
+      type="submit"
+    >Save Post</button>
+
+  </form>
+
+</mat-card>

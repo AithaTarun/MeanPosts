@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="66cb3bea-3e40-446b-8c57-af00f1acba4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="JupyterTrust" id="531a1807-270c-455c-a739-c9f5518c74e0" />
+  <component name="ProjectId" id="1gdk8wPHQ7K9HRMNA3uShxtnCBF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mongo" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="database.data.extractors.current.export.id" value="JSON-Groovy.json.groovy" />
+    <property name="database.data.extractors.current.id" value="JSON-Groovy.json.groovy" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.8.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.6.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NodeJS" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="ts.external.directory.path" value="E:\Education\Practice\Web Development\WebDevolopment\MEAN\mean-stack\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Education\Practice\Web Development\WebDevolopment\MEAN\mean-stack\backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Education\Practice\Web Development\WebDevolopment\MEAN\mean-stack\backend" />
+      <recent name="E:\Education\Practice\Web Development\WebDevolopment\MEAN\mean-stack\src\app\posts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (mean-stack)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (mean-stack)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Database" type="MongoRunConfiguration" factoryName="Mongo">
+      <module name="mean-stack" />
+      <setting name="path" value="$APPLICATION_HOME_DIR$/jbr/bin" />
+      <setting name="shellParams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/backend/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2">
+        <option name="NpmBeforeRunTask" enabled="true">
+          <package-json value="$PROJECT_DIR$/package.json" />
+          <command value="run" />
+          <scripts>
+            <script value="start:server" />
+          </scripts>
+          <node-interpreter value="project" />
+          <envs />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="Karma.Tests (mean-stack)" />
+      <item itemvalue="Mongo.Database" />
+      <item itemvalue="Node.js.Server" />
+      <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="Protractor.E2E Tests (mean-stack)" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66cb3bea-3e40-446b-8c57-af00f1acba4f" name="Default Changelist" comment="" />
+      <created>1598451701479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598451701479</updated>
+      <workItem from="1598451704886" duration="4541000" />
+      <workItem from="1598513509301" duration="663000" />
+      <workItem from="1598514454072" duration="110000" />
+      <workItem from="1598531518046" duration="4646000" />
+      <workItem from="1598610117464" duration="119000" />
+      <workItem from="1598610268793" duration="12072000" />
+      <workItem from="1598679020441" duration="596000" />
+      <workItem from="1598682459853" duration="2396000" />
+      <workItem from="1598688149124" duration="429000" />
+      <workItem from="1598689540763" duration="29856000" />
+      <workItem from="1598772621209" duration="26715000" />
+      <workItem from="1598809681515" duration="1776000" />
+      <workItem from="1598865905092" duration="6715000" />
+      <workItem from="1598872845304" duration="12593000" />
+      <workItem from="1598896005727" duration="2928000" />
+      <workItem from="1598934053486" duration="4868000" />
+      <workItem from="1598966851150" duration="2056000" />
+      <workItem from="1598987188899" duration="1243000" />
+      <workItem from="1599064787187" duration="2075000" />
+      <workItem from="1599223293786" duration="3803000" />
+      <workItem from="1599236020289" duration="1269000" />
+      <workItem from="1599280398584" duration="8943000" />
+      <workItem from="1599377254825" duration="16216000" />
+      <workItem from="1599559898630" duration="5176000" />
+      <workItem from="1599571572867" duration="7124000" />
+      <workItem from="1599644641427" duration="2890000" />
+      <workItem from="1599651170461" duration="5371000" />
+      <workItem from="1599657347786" duration="1686000" />
+      <workItem from="1599663076421" duration="1576000" />
+      <workItem from="1599668059700" duration="709000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1066" y="221" key="#Inspections" timestamp="1598452406421">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1066" y="221" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1598452406421" />
+    <state x="1186" y="363" key="#Notifications" timestamp="1598451872819">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1186" y="363" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1598451872819" />
+    <state x="1304" y="442" key="#TSLint" timestamp="1598452783807">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1304" y="442" key="#TSLint/0.0.1920.1080@0.0.1920.1080" timestamp="1598452783807" />
+    <state x="598" y="98" width="1092" height="955" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599657118174">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="598" y="98" width="1092" height="955" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599657118174" />
+    <state x="1245" y="259" key="#com.intellij.ide.util.MemberChooser" timestamp="1598883856425">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1245" y="259" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1598883856425" />
+    <state x="728" y="256" key="FileChooserDialogImpl" timestamp="1599654330059">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="728" y="256" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1599654330059" />
+    <state width="914" height="240" key="GridCell.Tab.0.bottom" timestamp="1599657234304">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599657234304" />
+    <state width="914" height="240" key="GridCell.Tab.0.center" timestamp="1599657234304">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="240" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599657234304" />
+    <state width="914" height="240" key="GridCell.Tab.0.left" timestamp="1599657234304">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="240" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599657234304" />
+    <state width="914" height="240" key="GridCell.Tab.0.right" timestamp="1599657234304">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="240" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599657234304" />
+    <state width="196" height="539" key="HiddenNamespacesPopup" timestamp="1599655000073">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="196" height="539" key="HiddenNamespacesPopup/0.0.1920.1080@0.0.1920.1080" timestamp="1599655000073" />
+    <state x="1020" y="278" key="IDE.errors.dialog" timestamp="1599387969809">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1020" y="278" key="IDE.errors.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599387969809" />
+    <state x="667" y="118" key="SettingsEditor" timestamp="1599655819287">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="667" y="118" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1599655819287" />
+    <state x="552" y="268" key="Vcs.Push.Dialog.v2" timestamp="1599652481690">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="268" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599652481690" />
+    <state x="1008" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598537109842">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1008" y="165" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1598537109842" />
+    <state x="777" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599652474706">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="777" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599652474706" />
+    <state x="551" y="141" key="new project wizard" timestamp="1598810443074">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="551" y="141" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1598810443074" />
+    <state x="1096" y="254" key="run.anything.popup" timestamp="1599579202900">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1096" y="254" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1599579202900" />
+    <state x="1103" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1599384000682">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1103" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1599384000682" />
+  </component>
+</project>
